@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jspiders</title>
+    <style>
+      * {
+        margin: 0px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        align-items: center;
+        background-color: black;
+      }
+      nav > div > h1 {
+        color: white;
+        text-decoration: none;
+      }
+      nav > div > a {
+        color: white;
+      }
+      nav > div > span {
+        color: white;
+      }
+      nav > div > h1 {
+        font-size: 3rem;
+      }
+      nav > div > h1::first-letter {
+        color: orange;
+      }
+      nav > div > a {
+        font-size: 20px;
+      }
+      /* -------------------------------------------------------------- */
+      .container {
+        background-color: bisque;
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+      }
+      .container > .parent {
+        background-color: green;
+        color: white;
+        font-size: 20px;
+        padding: 3px;
+        position: relative;
+      }
+      .child,
+      .child1 {
+        display: none;
+      }
+      .parent:hover > .child {
+        display: block;
+        position: absolute;
+        width: 180px;
+        top: 18px;
+        background-color: gray;
+        color: white;
+      }
+      .parent:hover > .child1 {
+        display: block;
+        position: absolute;
+        width: 180px;
+        top: 30px;
+        left: 0px;
+        background-color: gray;
+        color: white;
+      }
+      .child > a {
+        color: white;
+        text-decoration: none;
+      }
+      /* ---------------------------------------------- */
+      .container1 {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+      }
+      .container1 > .items {
+        width: 200px;
+
+        box-shadow: 0px 0px 10px gray;
+      }
+      .container1 > .items > h5 {
+        background-color: grey;
+
+        text-align: center;
+        color: orange;
+        font-size: 30px;
+      }
+      .container1 > .items > p {
+        text-align: center;
+      }
+      /* --------------------------------- */
+      .container2 {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .container2 > .item1 {
+        /* border: 2px solid black; */
+        height: 300px;
+        width: 30%;
+        box-shadow: 0px 0px 10px gray;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="items">
+        <h1>Jspiders</h1>
+        <span>Traing & Development center</span>
+      </div>
+      <div class="items">
+        <a href="">Home</a>
+      </div>
+      <div class="items">
+        <a href="">Courses</a>
+      </div>
+      <div class="items">
+        <a href="">Batchs</a>
+      </div>
+      <div class="items">
+        <a href="">Contacts</a>
+      </div>
+      <div class="items">
+        <a href="">Placements</a>
+      </div>
+      <div class="items">
+        <a href="">Enquiry</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <span class="parent">
+        Karnataka
+        <span class="child">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+      <span class="parent">
+        Karnataka
+        <span class="child1">
+          <a href="">Marathahalli</a> <br />
+          <a href="">Basavanna Gudi</a>
+        </span>
+      </span>
+    </div>
+    <div class="container2">
+      <div class="item1"></div>
+      <div class="item1"></div>
+      <div class="item1"></div>
+    </div>
+    <div class="container1">
+      <div class="items">
+        <h5>*No.1*</h5>
+        <p>Training center and world largest also.</p>
+      </div>
+      <div class="items">
+        <h5>*No.1*</h5>
+        <p>Training center and world largest also.</p>
+      </div>
+      <div class="items">
+        <h5>*No.1*</h5>
+        <p>Training center and world largest also.</p>
+      </div>
+      <div class="items">
+        <h5>*No.1*</h5>
+        <p>Training center and world largest also.</p>
+      </div>
+      <div class="items">
+        <h5>*No.1*</h5>
+        <p>Training center and world largest also.</p>
+      </div>
+      <div class="items">
+        <h5>*No.1*</h5>
+        <p>Training center and world largest also.</p>
+      </div>
+    </div>
+  </body>
+</html>
+Hi
